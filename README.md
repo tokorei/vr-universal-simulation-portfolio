@@ -1,6 +1,6 @@
 # VR Universal Simulation Development Portfolio
 
-20-page Simulation Engine v2 portfolio with a responsive mobile preview.
+23-page Simulation Engine v2 portfolio with a responsive mobile preview.
 
 [View portfolio](https://tokorei.github.io/vr-universal-simulation-portfolio/)
 

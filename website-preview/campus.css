@@ -92,3 +92,19 @@
 @media(max-width:360px){.portfolio-scene{height:0}.portfolio-nav{top:0}.product-article{scroll-margin-top:95px}}
 
 .product-walk{overflow:clip}
+/* Keep the portfolio content dominant while retaining a compact product index. */
+@media(min-width:801px){
+ .product-walk-layout{grid-template-columns:minmax(0,16fr) minmax(0,80fr);gap:4%}
+ .product-index{min-width:0;padding-right:0;top:28px}
+ .product-index h2{font-size:clamp(20px,1.65vw,29px);line-height:1.12;letter-spacing:-.035em}
+ .index-instruction{display:block;padding:16px 0}
+ .index-instruction p{font-size:11px;line-height:1.6}
+ #product-progress{display:block;margin-top:12px;font-size:9px}
+ .portfolio-nav{grid-template-columns:1fr;gap:0}
+ .portfolio-nav a{grid-template-columns:18px minmax(0,1fr);gap:6px;font-size:11px;line-height:1.4;padding:12px 0;min-height:44px}
+ .portfolio-nav a>.mono{font-size:8px}
+ .product-information h3{max-width:none;font-size:clamp(36px,3.4vw,62px)}
+ .product-description{max-width:850px}
+ .product-features{max-width:850px}
+ .product-figure{aspect-ratio:1.8}
+}

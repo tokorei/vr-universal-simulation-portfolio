@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#231f20">
+  <meta name="description" content="Explore VR Universal's training simulators, tactical vehicles, range systems and drone technologies.">
+  <title>VR Universal — Technology for operational readiness</title>
+  <link rel="preload" href="assets/inter-tight.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="campus.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="header">
+    <a class="brand" href="#" aria-label="VR Universal home"><img src="assets/vru-logo-dark.png" width="2388" height="644" alt="VR Universal"></a>
+    <nav class="desktop-nav" aria-label="Main navigation"><a href="#capabilities">Solutions <sup>01</sup></a><a href="#products">Products <sup>02</sup></a><a href="#about">About <sup>03</sup></a></nav>
+    <div class="header-actions"><span class="location mono">KUALA LUMPUR / MY</span><a class="contact-link mono" href="#contact">Contact </a><button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu"><span></span><span></span></button></div>
+  </header>
+  <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation" hidden><a href="#capabilities"><small>01</small> Solutions </a><a href="#products"><small>02</small> Products </a><a href="#about"><small>03</small> About VRU </a><a href="#contact"><small>04</small> Contact </a><p class="mono">VR UNIVERSAL / KUALA LUMPUR</p></nav>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-top mono"><span><i></i> DEFENCE / SIMULATION / TACTICAL SYSTEMS</span><span class="hero-edition">VRU — CAPABILITY OVERVIEW / 2026</span></div>
+      <div class="hero-copy"><p class="eyebrow mono">PREPARE FOR WHAT COMES NEXT</p><h1 id="hero-title">Technology for<br><span>operational</span><br>readiness<span class="blue">.</span></h1><p class="hero-description">Training simulators, tactical vehicles, range systems and drone technologies for defence, law enforcement and emergency response.</p><div class="hero-actions"><a class="button" href="#products">Explore products </a><a class="text-link" href="#contact">Discuss your requirements </a></div></div>
+      <div id="campus-home" class="campus-home"></div>
+      <div id="campus-shell" class="campus-shell" data-mode="hero">
+        <div class="scene-wrap" id="scene-wrap" role="img" aria-label="Illustrative point-cloud campus connecting training, tactical vehicle and drone areas. Drag to orbit the current area.">
+          <img class="scene-poster" id="scene-poster" src="assets/campus-poster.svg" width="1000" height="700" alt="">
+        </div>
+        <nav class="campus-hotspots" aria-label="Campus areas"><a class="campus-hotspot mono" data-zone="training" href="#product-military">01 / TRAINING COMPLEX </a><a class="campus-hotspot mono" data-zone="vehicles" href="#product-kia">02 / VEHICLE ZONE </a><a class="campus-hotspot mono" data-zone="drones" href="#product-drone">03 / DRONE ZONE </a></nav>
+        <div class="scene-label mono"><span id="campus-zone-label">CONNECTED CAMPUS / OVERVIEW</span><span id="campus-detail-label" class="campus-detail">Training · Mobility · Drone systems</span><em>ILLUSTRATIVE ENVIRONMENT</em></div>
+        <div class="scene-controls"><button id="campus-view-toggle" class="campus-overview mono" aria-pressed="false" aria-label="Show whole campus">Whole campus </button><button id="motion-toggle" class="icon-button" aria-label="Pause scene motion" aria-pressed="false"><span id="motion-icon" aria-hidden="true">Ⅱ</span></button><button id="scene-reset" class="icon-button" aria-label="Reset scene view"><span>Reset</span></button></div>
+      </div>
+      <div class="hero-bottom mono"><span>EXPLORE OUR CAPABILITIES</span><span aria-hidden="true">SCROLL TO DISCOVER ↓</span></div>
+    </section>
+    <div class="solution-index" id="capabilities" aria-label="Jump to product category"><a href="#product-military"><span class="mono">01</span> Training & simulation </a><a href="#product-kia"><span class="mono">02</span> Tactical vehicles </a><a href="#product-range"><span class="mono">03</span> Range systems </a><a href="#product-drone"><span class="mono">04</span> Drone systems </a></div>
+    <section class="intro section" id="about" aria-labelledby="about-title"><div class="section-meta mono"><span>01 / OUR PURPOSE</span><span>VR UNIVERSAL</span></div><div class="intro-body"><h2 id="about-title">Bringing technology<br>and operational<br><span class="muted">needs together.</span></h2><div class="intro-aside"><p>From immersive training environments to specialist tactical systems, we work with customers to address their training and operational requirements.</p><a class="text-link" href="#contact">Start a conversation </a></div></div></section>
+    <span id="solutions" class="anchor-alias" aria-hidden="true"></span><section class="product-walk section" id="products" aria-labelledby="products-title">
+ <div class="section-meta mono"><span>02 / PRODUCT PORTFOLIO</span><span>SCROLL TO EXPLORE THE SYSTEMS</span></div>
+ <div id="portfolio-scene" class="portfolio-scene" aria-hidden="true"><img class="campus-standby" src="assets/campus-poster.svg" width="1000" height="700" alt=""></div>
+ <div class="product-walk-layout"><aside class="product-index"><div class="product-index-heading"><h2 id="products-title">Prepared for<br><span class="muted">different demands.</span></h2><div class="index-instruction"><p>Explore each system as you scroll,<br>or select a product to jump ahead.</p><span id="product-progress" class="mono">01 / 09</span></div></div><nav class="portfolio-nav" aria-label="Product list"><a href="#product-military" data-number="01" class="is-active" aria-current="location"><span class="mono">01</span><span>Military VR training</span></a>
+<a href="#product-kia" data-number="02"><span class="mono">02</span><span>KIA tactical vehicle</span></a>
+<a href="#product-range" data-number="03"><span class="mono">03</span><span>SRT range systems</span></a>
+<a href="#product-mmts" data-number="04"><span class="mono">04</span><span>Laser Shot MMTS</span></a>
+<a href="#product-vehicle" data-number="05"><span class="mono">05</span><span>Vehicle simulators</span></a>
+<a href="#product-fire" data-number="06"><span class="mono">06</span><span>Fire brigade training</span></a>
+<a href="#product-police" data-number="07"><span class="mono">07</span><span>Police training</span></a>
+<a href="#product-drone" data-number="08"><span class="mono">08</span><span>Drone detection &amp; protection</span></a>
+<a href="#product-modular" data-number="09"><span class="mono">09</span><span>Modular drone system</span></a></nav></aside><div class="product-stories"><article class="product-article" id="product-military" aria-labelledby="title-military">
+  <div class="product-figure"><img src="assets/military-vr.webp" width="768" height="560" alt="Immersive VR Military Training Simulator — VR Universal portfolio visual" loading="lazy"><span class="figure-number mono">SYSTEM 01 / TRAINING &amp; SIMULATION</span></div>
+  <div class="product-information"><p class="product-category mono">TRAINING &amp; SIMULATION</p><h3 id="title-military">Immersive VR Military Training Simulator</h3><p class="product-description">Build practical skills in a virtual combat environment with realistic weapon handling, spatial audio and mission-specific exercises. Recoil-enabled weapons, configurable objectives and after-action review support repeatable training and performance evaluation.</p><ul class="product-features"><li>Recoil-enabled weapon handling</li><li>Configurable mission objectives</li><li>After-action review capability</li></ul><a class="text-link product-enquiry" href="#contact">Discuss this system </a></div>
+</article>
+<article class="product-article" id="product-kia" aria-labelledby="title-kia">
+  <div class="product-figure"><img src="assets/kia-ltv.webp" width="768" height="560" alt="KIA Light Tactical Vehicle — VR Universal portfolio visual" loading="lazy"><span class="figure-number mono">SYSTEM 02 / TACTICAL VEHICLES</span></div>
+  <div class="product-information"><p class="product-category mono">TACTICAL VEHICLES</p><h3 id="title-kia">KIA Light Tactical Vehicle</h3><p class="product-description">A versatile tactical vehicle platform for command, reconnaissance, weapon-carrier and ambulance roles. Explore standard and long-wheelbase variants, with configurations designed around mobility, protection and mission requirements.</p><ul class="product-features"><li>Standard and long-wheelbase variants</li><li>Command and reconnaissance applications</li><li>Specialist mission configurations</li></ul><a class="text-link product-enquiry" href="#contact">Discuss this system </a></div>
+</article>
+<article class="product-article" id="product-range" aria-labelledby="title-range">
+  <div class="product-figure"><img src="assets/range.webp" width="768" height="560" alt="SRT Live-Fire Range Systems — VR Universal portfolio visual" loading="lazy"><span class="figure-number mono">SYSTEM 03 / RANGE SYSTEMS</span></div>
+  <div class="product-information"><p class="product-category mono">RANGE SYSTEMS</p><h3 id="title-range">SRT Live-Fire Range Systems</h3><p class="product-description">Range solutions for specialist indoor and outdoor training facilities. SRT&#39;s portfolio brings together range design, ballistic systems and target solutions for police, military and tactical training environments.</p><ul class="product-features"><li>Indoor and outdoor facilities</li><li>Range design and ballistic systems</li><li>Target solutions</li></ul><a class="text-link product-enquiry" href="#contact">Discuss this system </a></div>
+</article>
+<article class="product-article" id="product-mmts" aria-labelledby="title-mmts">
+  <div class="product-figure"><img src="assets/mmts.webp" width="768" height="560" alt="Laser Shot MMTS — VR Universal portfolio visual" loading="lazy"><span class="figure-number mono">SYSTEM 04 / TRAINING &amp; SIMULATION</span></div>
+  <div class="product-information"><p class="product-category mono">TRAINING &amp; SIMULATION</p><h3 id="title-mmts">Laser Shot MMTS</h3><p class="product-description">Take marksmanship training beyond a permanent range. The Mobile Marksmanship Training System combines a portable, modular format with instructor control and after-action review for small-arms and crew-served weapon training.</p><ul class="product-features"><li>Portable, modular format</li><li>Instructor control station</li><li>After-action review</li></ul><a class="text-link product-enquiry" href="#contact">Discuss this system </a></div>
+</article>
+<article class="product-article" id="product-vehicle" aria-labelledby="title-vehicle">
+  <div class="product-figure"><img src="assets/vehicle-simulators.webp" width="768" height="450" alt="Vehicle Simulators — VR Universal portfolio visual" loading="lazy"><span class="figure-number mono">SYSTEM 05 / TRAINING &amp; SIMULATION</span></div>
+  <div class="product-information"><p class="product-category mono">TRAINING &amp; SIMULATION</p><h3 id="title-vehicle">Vehicle Simulators</h3><p class="product-description">Develop driving, navigation and systems-operation skills in simulated environments. Training can cover routine operations, emergency response and demanding scenarios across land, aviation, maritime and industrial applications.</p><ul class="product-features"><li>Driving and navigation practice</li><li>Systems-operation training</li><li>Emergency-response scenarios</li></ul><a class="text-link product-enquiry" href="#contact">Discuss this system </a></div>
+</article>
+<article class="product-article" id="product-fire" aria-labelledby="title-fire">
+  <div class="product-figure"><img src="assets/fire-training.webp" width="1024" height="1024" alt="vRUSIM Fire Brigade Training Simulator — VR Universal portfolio visual" loading="lazy"><span class="figure-number mono">SYSTEM 06 / TRAINING &amp; SIMULATION</span></div>
+  <div class="product-information"><p class="product-category mono">TRAINING &amp; SIMULATION</p><h3 id="title-fire">vRUSIM Fire Brigade Training Simulator</h3><p class="product-description">Practise fire and rescue scenarios in immersive virtual environments. Configurable training modules bring together different fire types, terrains and equipment to support decision-making and response preparation.</p><ul class="product-features"><li>Fire and rescue scenarios</li><li>Configurable training modules</li><li>Different fire types, terrains and equipment</li></ul><a class="text-link product-enquiry" href="#contact">Discuss this system </a></div>
+</article>
+<article class="product-article" id="product-police" aria-labelledby="title-police">
+  <div class="product-figure"><img src="assets/police-training.webp" width="1107" height="709" alt="vRUSIM Police Training Simulator — VR Universal portfolio visual" loading="lazy"><span class="figure-number mono">SYSTEM 07 / TRAINING &amp; SIMULATION</span></div>
+  <div class="product-information"><p class="product-category mono">TRAINING &amp; SIMULATION</p><h3 id="title-police">vRUSIM Police Training Simulator</h3><p class="product-description">Prepare officers for the demands of operational policing through simulation-based training. Explore how immersive scenarios can support practice and preparation for challenging situations.</p><ul class="product-features"><li>Simulation-based training</li><li>Immersive scenarios</li><li>Operational preparation</li></ul><a class="text-link product-enquiry" href="#contact">Discuss this system </a></div>
+</article>
+<article class="product-article" id="product-drone" aria-labelledby="title-drone">
+  <div class="product-figure"><img src="assets/drone.webp" width="1024" height="1024" alt="Drone Detection and Protection System — VR Universal portfolio visual" loading="lazy"><span class="figure-number mono">SYSTEM 08 / DRONE SYSTEMS</span></div>
+  <div class="product-information"><p class="product-category mono">DRONE SYSTEMS</p><h3 id="title-drone">Drone Detection and Protection System</h3><p class="product-description">Explore systems that support awareness of drone activity and responses to emerging threats. Options include passive detection, radar-based detection and protection capabilities tailored to the operating requirement.</p><ul class="product-features"><li>Passive detection options</li><li>Radar-based detection</li><li>Protection configurations</li></ul><a class="text-link product-enquiry" href="#contact">Discuss this system </a></div>
+</article>
+<article class="product-article" id="product-modular" aria-labelledby="title-modular">
+  <div class="product-figure"><img src="assets/modular-drone.webp" width="1024" height="1024" alt="Modular Drone System — VR Universal portfolio visual" loading="lazy"><span class="figure-number mono">SYSTEM 09 / DRONE SYSTEMS</span></div>
+  <div class="product-information"><p class="product-category mono">DRONE SYSTEMS</p><h3 id="title-modular">Modular Drone System</h3><p class="product-description">A flexible aerial reconnaissance platform with interchangeable payload options. Discuss imaging, payload and endurance requirements with our team to identify a suitable configuration.</p><ul class="product-features"><li>Interchangeable payload options</li><li>Aerial reconnaissance</li><li>Configuration to suit the application</li></ul><a class="text-link product-enquiry" href="#contact">Discuss this system </a></div>
+</article></div></div>
+</section>
+    <section class="contact section" id="contact" aria-labelledby="contact-title"><div class="section-meta mono"><span>03 / START A CONVERSATION</span><span>KUALA LUMPUR, MALAYSIA</span></div><div class="contact-main"><h2 id="contact-title">Let's discuss<br><span class="muted">your next requirement.</span></h2><a class="contact-cta" href="tel:+60377726700" aria-label="Call VR Universal">Call us</a></div><div class="contact-details"><p>Tell us about your application,<br>training objectives or operating environment.</p><div><span class="mono">CALL OUR TEAM</span><a href="tel:+60377726700">+603 777 26700</a></div><div><span class="mono">VISIT VR UNIVERSAL</span><address>16-4, Lorong 2/137C, Off Jalan Klang Lama,<br>58200 Kuala Lumpur, Malaysia</address></div><div><span class="mono">OFFICE HOURS</span><p>Monday–Friday<br>9 AM–5 PM</p></div></div></section>
+  </main>
+  <footer class="footer"><a href="#" aria-label="VR Universal home"><img src="assets/vru-logo-dark.png" width="2388" height="644" alt="VR Universal"></a><span class="mono">© 2026 VR UNIVERSAL SDN BHD.</span><a class="mono" href="#main">BACK TO TOP</a></footer>
+</body>
+</html>
